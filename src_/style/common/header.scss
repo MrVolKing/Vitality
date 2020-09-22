@@ -1,0 +1,102 @@
+.header{
+    background-image: linear-gradient(to left, #561c45 0%, #311254 100%);
+    // padding: rem(11) 0 rem(16) 0;
+
+    .wrapper{
+        padding: 0; 
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left{
+        display: flex;
+        padding: rem(11) 0 rem(16) 0;
+    }
+
+    &__logo{
+        display: flex;
+        align-items: center;
+        img{
+            width: rem(152);
+            height: rem(38);
+        }
+    }
+
+    &__right{
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu{
+        display: flex;
+        height: 100%;
+    }
+
+    &__menuitem{
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-left: rem(40);
+        margin-left: rem(49);
+        cursor: pointer;
+        &:before{
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 50%;
+            display: block;
+            width: 0px;
+            height: rem(4);
+            background: #a872e0;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+        }
+        &:hover{
+            &:before{
+                width: 100%;
+            }
+        }
+        img{
+            position: absolute;
+            top: rem(23);
+            left: rem(-7);
+            width: rem(41);
+            height: rem(40);
+        }
+        a{
+            font-family: Ubuntu;
+            font-size: rem(18);
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #e0cae0;
+        }
+        &:nth-child(2){
+            img{
+                width: rem(40);
+                height: rem(40);
+            }
+        }
+        &:nth-child(3){
+            img{
+                width: rem(42);
+                height: rem(41);
+            }
+        }
+        &:last-child{
+            img{
+                width: rem(42);
+                height: rem(41);
+            }
+        }
+    }
+}

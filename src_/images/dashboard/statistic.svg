@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #997199;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1055" y="22" width="40" height="40" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="5" dy="8.66" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#20041c" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_statistic" data-name="icon statistic" class="cls-1" d="M1080.01,22.012h-21.02V38.788h6.34l-2.13,3.492,1.17,0.708,2.55-4.2h1.9v2.758h1.37V38.788h1.87l2.57,4.222,1.16-.707-2.13-3.514h6.35V22.012Zm-1.32,1.361V37.468h-18.33V23.373h18.33Zm-12.31,6.412V29.542h-4.24v6.4h4.24V29.785Zm-1.36,1.077V34.58h-1.52V30.862h1.52Zm6.6-5.391h-4.25V35.942h4.25V25.471Zm-2.88,9.109V26.832h1.52V34.58h-1.52Zm8.12-6.876h-4.24v8.237h4.24V27.7Zm-2.88,6.876V29.066h1.52V34.58h-1.52Z" transform="translate(-1055 -22)"/>
+</svg>

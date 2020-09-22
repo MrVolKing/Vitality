@@ -1,0 +1,116 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+    
+    article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+        display: block;
+    }
+    
+    textarea {
+        resize: vertical;
+      }
+    
+    
+    
+    
+    
+    
+    
+    // my style
+    
+    * {
+        transition:all .04s ease-in-out
+    }
+    
+    html{
+        font-size: 0.83333333333vw;
+    }
+    
+    @media screen and (max-width:1200px){
+        html{
+            font-size: 16px;
+            font-size: 1.3333333333vw;
+        }
+    }
+
+    @media screen and (max-width:769px){
+        html{
+            font-size: 16px;
+        }
+    }
+    
+    .content{
+        overflow: hidden;
+    }
+    
+    body{
+        position: relative;
+    }
+    
+    a{
+        cursor: pointer !important;
+        text-decoration: none;
+    }
+    
+    @font-face{
+        font-family: 'MyriadPro';
+        src: 
+        url('../fonts/MyriadProRegular.ttf') format('truetype'),
+        url('../fonts/MyriadProRegular.eot?iefix') format('eot'),
+        url('../fonts/MyriadProRegular.woff') format('woff'),
+        url("../fonts/MyriadProRegular.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: 'MyriadPro';
+        src: 
+        url('../fonts/MyriadProBold.ttf') format('truetype'),
+        url('../fonts/MyriadProBold.eot?iefix') format('eot'),
+        url('../fonts/MyriadProBold.woff') format('woff'),
+        url("../fonts/MyriadProBold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: 'Ubuntu';
+        src: 
+        url('../fonts/Ubuntu_R.ttf') format('truetype'),
+        url('../fonts/Ubuntu_R.eot?iefix') format('eot'),
+        url('../fonts/Ubuntu_R.woff') format('woff'),
+        url("../fonts/Ubuntu_R.otf") format("opentype");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: 'Ubuntu';
+        src: 
+        url('../fonts/Ubuntu-M.ttf') format('truetype'),
+        url('../fonts/Ubuntu-M.eot?iefix') format('eot'),
+        url('../fonts/Ubuntu-Medium.woff') format('woff'),
+        url("../fonts/Ubuntu-Medium.otf") format("opentype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: 'Ubuntu';
+        src: 
+        url('../fonts/Ubuntu_B.ttf') format('truetype'),
+        url('../fonts/Ubuntu_B.eot?iefix') format('eot'),
+        url('../fonts/Ubuntu-Bold.woff') format('woff'),
+        url("../fonts/Ubuntu-Bold.otf") format("opentype");
+        font-weight: 700;
+        font-style: normal;
+    }

@@ -1,0 +1,39 @@
+.main-btn{
+    width: rem(85);
+    height: rem(46);
+    box-shadow: rem(6) rem(10) rem(10) rgba(45, 10, 38, 0.46);
+    border: rem(2) solid #b6166d;
+    background-color: rgba(182, 22, 109, 0.9);
+    color: $white;
+    font-family: "Ubuntu";
+    font-size: rem(18);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+        background-color: rgba(182, 22, 109, 1);
+    }
+}
+
+
+.reg-btn{
+    width: rem(159);
+    height: rem(46);
+    box-shadow: rem(6) rem(10) rem(10) rgba(45, 10, 38, 0.46);
+    border: rem(2) solid #b6166d;
+    background-color: rgba(182, 22, 109, 0.2);
+    color: $white;
+    font-family: "Ubuntu";
+    font-size: rem(18);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+        background-color: rgba(182, 22, 109, 0.9);
+    }
+}
+
+
+.main_inp{
+
+}

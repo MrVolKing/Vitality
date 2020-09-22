@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #de7cb2;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1485" y="17" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3" dy="5.196" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-color="#a6005a"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_wallet_" data-name="icon wallet " class="cls-1" d="M1510.93,29.444V24.808a2.468,2.468,0,0,0-2.48-2.453h-1.29l-1.42-2.521a1.6,1.6,0,0,0-1.4-.819,1.627,1.627,0,0,0-.78.2l-5.7,3.139h-6.37a2.468,2.468,0,0,0-2.48,2.453V39.559a2.469,2.469,0,0,0,2.48,2.454h16.96a2.469,2.469,0,0,0,2.48-2.454V35.533h1.08V29.444h-1.08Zm-16.72-5.084h-1.51a0.734,0.734,0,1,0,0,1.468h16.75v3.617h-2.87a2.971,2.971,0,0,0-2.98,2.951v0.185a2.971,2.971,0,0,0,2.98,2.951h2.87v4.027a0.994,0.994,0,0,1-1,.984h-16.96a0.994,0.994,0,0,1-1-.984V24.808a0.994,0.994,0,0,1,1-.984h3.7Zm10.87,8.22V32.4a1.491,1.491,0,0,1,1.5-1.483h3.95v3.15h-3.95A1.491,1.491,0,0,1,1505.08,32.58Zm2.9-8.757h0.47a1,1,0,0,1,.89.537h-1.05Zm-10.72.536,7.02-3.86h0a0.129,0.129,0,0,1,.17.049l2.14,3.811h-9.33Zm10.95,8.164a1.26,1.26,0,1,0-1.26,1.254A1.255,1.255,0,0,0,1508.21,32.523Z" transform="translate(-1485 -17)"/>
+</svg>

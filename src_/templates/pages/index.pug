@@ -1,0 +1,97 @@
+extends ../template
+
+block varibles
+    - var title = "Ugly Cash"
+
+block content
+   
+    .content.registration_active
+        header.headerindex
+            .wrapper
+                .headerindex__content
+                    .headerindex__left
+                        .headerindex__logo
+                            img(src="./images/logo.png", alt="") 
+
+                    .headerindex__right
+                        form.form
+                            .form__input.form__input_email
+                                input(type="email" placeholder="Почта")
+                            .form__input.form__input_pass
+                                input(type="password" placeholder="Пароль")
+                            .form__login
+                                input.main-btn(type='submit' value='Войти' name="")
+                            .form__registration
+                                button.reg-btn(type='button') Регистрация
+
+        section.sectcontent 
+            .wrapper
+                .sectcontent__content
+                    .sectcontent__left
+                        img.sectcontent__person(src="./images/purple_character.png", alt="") 
+                    .sectcontent__right 
+                        .sectcontent__circles
+                            img(src="./images/circles.png", alt="")
+                        .sectcontent__textcontent
+                            .sectcontent__title
+                                p Безкопромисная 
+                                p монетезация
+                            .sectcontent__subtitle
+                                span Крутая реализация
+                            .sectcontent__description
+                                .sectcontent__name
+                                    span Ugly Cash
+                                .sectcontent__link
+                                    a(href="#") Партнерская 
+                                        br
+                                        | программа
+
+        footer.footerindex
+            .wrapper
+                .footerindex__content.swiper-container
+                    .swiper-wrapper
+                        .footerindex__itemblock.swiper-slide
+                            .footerindex__icn.footerindex__icn_1
+                                img(src="./images/icn_1.png", alt="")
+                            .footerindex__text
+                                p Коварные и жуткие решения, от которых 
+                                    span 
+                                        | «конверт» просто разрывает
+                        .footerindex__itemblock.swiper-slide
+                            .footerindex__icn.footer__icn_2
+                                img(src="./images/icn_2.png", alt="")
+                            .footerindex__text
+                                p Ужасно 
+                                    span
+                                        | много платит. 
+                                    | Тарифы которые бесят всех наших конкурентов
+                        .footerindex__itemblock.swiper-slide
+                            .footerindex__icn.footerindex__icn_3
+                                img(src="./images/icn_3.png", alt="")
+                            .footerindex__text
+                                p Так 
+                                    span
+                                        | стабильно работает, 
+                                    | что хронически раздражает тех, кто не с нами
+            .swiper-pagination
+    
+    .registration
+        .registration__content
+            .registration__top
+                span Регистрация
+            .registration__close
+                <svg>
+                    <use x="0" y="0" xlink:href="./images/sprite/sprite.svg#close"></use>
+                </svg>
+            .registration__title
+                span Введите вашу 
+                    b электронную почту
+            .registration__description
+                p Дальнейшие инструкции будут отправлены 
+                    br 
+                    | на ваш почтовый ящик 
+            .registration__form
+                .registration__input
+                    input(type="text" placeholder="user@mail.com")
+                .registration__button
+                    button.main-btn(type="submit") Регистрация

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vitality</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta content="ie-edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./styles/app.min.css?2">
+  </head>
+  <body>
+    <div class="vitality">
+      <div class="vitality__header">  <span class="vitality__logo">vitality</span></div>
+      <div class="vitality__content">
+        <div class="vitality__descblock"><span class="vitality__desctext">Присоединяйтесь <span>к сообществу</span></span></div>
+        <div class="vitality__titleblock">
+          <h1 class="vitality__titletext">витамины <br><span>энергия жизни</span></h1>
+        </div>
+        <div class="vitality__buttonblock">
+          <button class="vitality__button"> <span>Подписаться</span></button>
+        </div>
+      </div>
+      <script>
+        let orient = window.orientation;
+        //- console.log("start", orient);
+        //- alert(orient);
+        
+        //- if(orient !== 90 || orient !== -90 && screen.width < 769){
+        //-     document.querySelector("html").style.fontSize = "16px";
+        //- }
+        
+        
+        
+        
+        
+        
+        
+        window.addEventListener("orientationchange", function() {
+            let orient = window.orientation;
+            if(orient === 90 || orient === -90){
+                //- alert(orient);
+            }
+           
+        
+        }, false);
+      </script>
+    </div>
+    <script src="./dist/js/swiper.min.js?2"></script>
+    <script src="./scripts/app.js?2"></script>
+  </body>
+</html>

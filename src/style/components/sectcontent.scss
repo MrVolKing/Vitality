@@ -1,0 +1,209 @@
+.vitality{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    padding-top: rem(80);
+    padding-bottom: rem(350);
+    padding-right: rem(340);
+    padding-left: rem(180);
+
+    height: 100vh;
+
+    &__header{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: rem(130);
+    }
+
+    &__logo{
+        color: #e77d27;
+        font-family: "Montserrat";
+        font-size: rem(71);
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__descblock{
+        margin-bottom: rem(60);
+    }
+
+    &__desctext{
+        color: #2e2e2e;
+        font-family: "Montserrat";
+        font-size: rem(50);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &__titleblock{
+        margin-bottom: rem(75);
+    }
+
+    &__titletext{
+        color: #20676b;
+        font-family: "Montserrat";
+        font-size: rem(111);
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: rem(100);
+        span{
+            font-size: rem(76);  
+        }
+    }
+
+    &__button{
+        width: rem(569);
+        height: rem(125);
+        border: none;
+        background-color: #e77d27;
+        border-radius: rem(10);
+        cursor: pointer;
+        outline: none;
+        opacity: 0.98;
+        span{
+            font-family: "Montserrat";
+            font-size: rem(59);
+            font-weight: 600;
+            color: white;
+            text-transform: uppercase;
+        }
+        &:hover{
+            transform: scale(1.01);
+            opacity: 1;
+        }
+        &:active{
+            transform: scale(1);
+        }
+    }
+}
+
+
+
+@media all and (orientation:portrait) {
+    html{
+        font-size: 16px;
+    }
+
+    .vitality{
+        background-image: url(../images/bg_mob.jpg);
+        padding: 0;
+        padding-top: 16px;
+
+        padding-top: 26px;
+
+        &__header{
+            justify-content: center;
+            margin-bottom: 29px;
+
+            margin-bottom: 39px;
+        }
+
+        &__logo{
+            font-size: 11px;
+
+            font-size: 16px;
+        }
+
+        &__descblock{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 12px;
+
+            margin-bottom: 25px;
+        }
+
+        &__desctext{
+            font-size: 9px;
+
+            font-size: 13px;
+            text-align: center;
+            span{
+                display: block;
+            }
+        }
+
+        &__titleblock{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 17px;
+            text-align: center;
+
+            margin-bottom: 30px;
+        }
+
+        &__titletext{
+            font-size: 23px;
+            line-height: 30px;
+
+
+            font-size: 30px;
+            span{
+                font-size: 16px;
+            }
+        }
+
+        &__buttonblock{
+            display: flex;
+            justify-content: center;
+        }
+
+        &__button{
+            width: 119px;
+            height: 26px;
+            border-radius: 4px;
+
+            width: 150px;
+            height: 36px;
+            border-radius: 6px;
+            span{
+                font-size: 9px;
+
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
+
+
+// @media screen and (max-width:700px){
+//     .footerindex{
+//         background-image: url(../images/footer_320.png);
+//         position: relative;
+//         padding: 0;
+//         margin-top: -30px;
+
+//         .wrapper{
+//             padding-top: 60px;
+//         }
+
+//         &__itemblock{
+//             padding: 0 56px;
+//         }
+
+//         .swiper-pagination{
+//             position: static;
+//             padding-top: 10px;
+//             width: 100%;
+//             height: auto;
+//             display: flex;
+//             justify-content: center;
+
+
+//             .swiper-pagination-bullet{
+//                 width: 10px;
+//                 height: 10px;
+//                 box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.89);
+//                 background-color: #160315;
+//                 display: block;
+//                 margin: 11px;
+//                 border-radius: 50%;
+//                 outline: none;
+//             }
+
+//             .swiper-pagination-bullet-active{
+//                 box-shadow: 2px 3px 3px 1px rgba(1, 1, 1, 0.31);
+//                 background-color: #c996ff;
+//             }
+//         }        
+//     }
+// }

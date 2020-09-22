@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="41" viewBox="0 0 42 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #997199;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1239" y="22" width="42" height="41" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="5" dy="8.66" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#20041c" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_dollar" data-name="icon dollar" class="cls-1" d="M1255.2,32.073h-1.34a1.113,1.113,0,1,1,0-2.226h2.68a0.9,0.9,0,1,0,0-1.805h-1.11V26.929a0.9,0.9,0,1,0-1.8,0v1.122a2.918,2.918,0,0,0,.23,5.828h1.34a1.113,1.113,0,0,1,0,2.227h-2.69a0.9,0.9,0,0,0,0,1.8h1.12v1.113a0.9,0.9,0,1,0,1.8,0V37.9A2.918,2.918,0,0,0,1255.2,32.073Zm7.09-6.862a10.971,10.971,0,1,0,3.22,7.765A10.9,10.9,0,0,0,1262.29,25.211Zm-7.76,16.941a9.176,9.176,0,1,1,9.17-9.176A9.19,9.19,0,0,1,1254.53,42.152Z" transform="translate(-1239 -22)"/>
+</svg>

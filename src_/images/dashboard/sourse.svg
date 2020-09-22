@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="40" viewBox="0 0 41 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #997199;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="873" y="22" width="41" height="40" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="5" dy="8.66" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#20041c" flood-opacity="0.5"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="icon_sourse" data-name="icon sourse" class="cls-1" d="M895.931,25.08a10.507,10.507,0,1,0-4.071,17.372c0.253,0.227.411,0.355,0.43,0.37a0.824,0.824,0,0,0,1.027,0,18.741,18.741,0,0,0,2.83-2.963,15.533,15.533,0,0,0,1.954-3.248A10.278,10.278,0,0,0,895.931,25.08Zm-0.616,1.757a6.206,6.206,0,0,0-7.206,1.617,19.9,19.9,0,0,1-6.818-1.123A8.882,8.882,0,0,1,895.315,26.837Zm-15.449,7.736a8.894,8.894,0,0,1,.585-5.816,19.628,19.628,0,0,0,6.647,1.309,8.345,8.345,0,0,0,.375,6.466C883.571,36.393,880.743,35.475,879.866,34.573Zm0.989,2.441a22.346,22.346,0,0,0,7.465,1.175,18.215,18.215,0,0,0,2.207,2.939A8.881,8.881,0,0,1,880.855,37.014ZM892.8,41.091c-2.368-2.189-4.564-5.365-4.564-8.587a4.564,4.564,0,0,1,9.128,0C897.368,35.722,895.157,38.916,892.8,41.091Zm0-11.047a2.461,2.461,0,1,0,2.464,2.461A2.466,2.466,0,0,0,892.8,30.043Zm0,3.281a0.82,0.82,0,1,1,.821-0.82A0.822,0.822,0,0,1,892.8,33.324Z" transform="translate(-873 -22)"/>
+</svg>

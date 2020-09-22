@@ -1,0 +1,91 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.footer{
+    padding: rem(25) 0 rem(50) 0;
+    position: relative;
+    background-image: linear-gradient(to top, #311254, #561c45);
+
+    &__namelogo{
+        position: absolute;
+        z-index: 100;
+        top: rem(-25);
+        img{
+            width: rem(354);
+            height: rem(73);
+        }
+    }
+
+    &__content{
+        position: relative;
+        z-index: 200;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__copyright{
+        font-family: Ubuntu;
+        font-size: rem(16);
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #c7b2d9;
+        
+    }
+
+    &__right{
+        display: flex;
+    }
+
+    &__blockitem{
+        margin-left: rem(25);
+        &:nth-child(1){
+            img{
+                width: rem(67);
+                height: rem(18);
+            }
+        }
+        &:nth-child(2){
+            img{
+                width: rem(53);
+                height: rem(18);
+            }
+        }
+        &:nth-child(3){
+            img{
+                width: rem(28);
+                height: rem(18);
+            }
+        }
+        &:nth-child(4){
+            img{
+                width: rem(44);
+                height: rem(14);
+            }
+        }
+        &:last-child{
+            margin-left: rem(55);
+            a{
+                font-family: Ubuntu;
+                font-size: rem(16);
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #b38fb0;
+                border-bottom: rem(1px) dotted #b38fb0;
+                &:hover{
+                    color: #c9a3c7;
+                    border-color: #c9a3c7;
+                }
+            }
+        }
+    }
+}
